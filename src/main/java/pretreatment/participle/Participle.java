@@ -44,8 +44,12 @@ public class Participle {
     public List<String> getWords(String content) {
         List<String> words = new ArrayList<String>();
         for (String word : content.split(" +")) {
-//            word = word.substring(0, word.indexOf("/"));
-            words.add(word);
+            if (word.indexOf("/") == -1)
+                words.remove(word);
+            else {
+                word = word.substring(0, word.indexOf("/"));
+                words.add(word);
+            }
         }
         return words;
     }

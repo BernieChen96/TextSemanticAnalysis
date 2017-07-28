@@ -2,31 +2,23 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8188de1b-94c5-495c-9898-b4bdfda2677b" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/encodings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pretreament/Stopword/中文停用词.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pretreament/Stopword/停用词表1.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/constant/IOConstant.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/pretreatment/stopWordFilter/StopWordFilter.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/util/Print.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/pretreament/stopWordFilter/StopWordFilterTest.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pretreament/Synonymy/哈工大信息检索研究中心同义词词林扩展版.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/domain/Synonym.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/pretreatment/synonymy/HandleSynonymy.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/pretreament/Synonymy/HandleSynonymyTest.java" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/pretreament/TxtData/participle.txt" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/pretreament/TxtData/sentences.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pretreament/TxtData/test1.txt" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Data/20170728.err" afterPath="$PROJECT_DIR$/Data/20170728.err" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/TextSemanticAnalysis.class" afterPath="$PROJECT_DIR$/target/classes/TextSemanticAnalysis.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/constant/PathConstant.class" afterPath="$PROJECT_DIR$/target/classes/constant/PathConstant.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/domain/Sentence.class" afterPath="$PROJECT_DIR$/target/classes/domain/Sentence.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/pretreatment/POI/POIExcel.class" afterPath="$PROJECT_DIR$/target/classes/pretreatment/POI/POIExcel.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/pretreatment/handleData/HandleTxtData.class" afterPath="$PROJECT_DIR$/target/classes/pretreatment/handleData/HandleTxtData.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/pretreatment/participle/Participle.class" afterPath="$PROJECT_DIR$/target/classes/pretreatment/participle/Participle.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/util/IO.class" afterPath="$PROJECT_DIR$/target/classes/util/IO.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/util/POITest.class" afterPath="$PROJECT_DIR$/target/test-classes/util/POITest.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/encodings.xml" afterPath="$PROJECT_DIR$/.idea/encodings.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/TextSemanticAnalysis.java" afterPath="$PROJECT_DIR$/src/main/java/TextSemanticAnalysis.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/constant/PathConstant.java" afterPath="$PROJECT_DIR$/src/main/java/constant/PathConstant.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/domain/Sentence.java" afterPath="$PROJECT_DIR$/src/main/java/domain/Sentence.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/pretreatment/handleData/HandleTxtData.java" afterPath="$PROJECT_DIR$/src/main/java/pretreatment/handleData/HandleTxtData.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/pretreatment/participle/Participle.java" afterPath="$PROJECT_DIR$/src/main/java/pretreatment/participle/Participle.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/util/IO.java" afterPath="$PROJECT_DIR$/src/main/java/util/IO.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -40,23 +32,91 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file leaf-file-name="TextSemanticAnalysis.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="TextSemanticAnalysis.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/TextSemanticAnalysis.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="405">
-              <caret line="40" column="55" lean-forward="true" selection-start-line="40" selection-start-column="55" selection-end-line="40" selection-end-column="55" />
+            <state relative-caret-position="525">
+              <caret line="47" column="0" lean-forward="true" selection-start-line="47" selection-start-column="0" selection-end-line="47" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Participle.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="HandleSynonymyTest.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/pretreament/Synonymy/HandleSynonymyTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="352">
+              <caret line="11" column="31" lean-forward="false" selection-start-line="11" selection-start-column="31" selection-end-line="11" selection-end-column="31" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#221#222#0" expanded="true" />
+                <element signature="e#275#276#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="HandleSynonymy.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/pretreatment/synonymy/HandleSynonymy.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="534">
+              <caret line="53" column="26" lean-forward="false" selection-start-line="53" selection-start-column="26" selection-end-line="53" selection-end-column="26" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#1338#1346#0" expanded="true" />
+                <element signature="e#2146#2154#0" expanded="true" />
+                <element signature="e#2217#2225#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="哈工大信息检索研究中心同义词词林扩展版.txt" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pretreament/Synonymy/哈工大信息检索研究中心同义词词林扩展版.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="32">
+              <caret line="3" column="16" lean-forward="false" selection-start-line="3" selection-start-column="11" selection-end-line="3" selection-end-column="16" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Sentence.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/domain/Sentence.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="384">
+              <caret line="12" column="44" lean-forward="true" selection-start-line="11" selection-start-column="12" selection-end-line="12" selection-end-column="44" />
+              <folding>
+                <element signature="e#790#791#0" expanded="true" />
+                <element signature="e#833#834#0" expanded="true" />
+                <element signature="e#1026#1027#0" expanded="true" />
+                <element signature="e#1067#1068#0" expanded="true" />
+                <element signature="e#1141#1142#0" expanded="true" />
+                <element signature="e#1201#1202#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="PathConstant.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/constant/PathConstant.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="352">
+              <caret line="11" column="94" lean-forward="false" selection-start-line="11" selection-start-column="94" selection-end-line="11" selection-end-column="94" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Participle.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/pretreatment/participle/Participle.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="407">
-              <caret line="46" column="34" lean-forward="true" selection-start-line="46" selection-start-column="34" selection-end-line="46" selection-end-column="34" />
+            <state relative-caret-position="1184">
+              <caret line="47" column="35" lean-forward="false" selection-start-line="47" selection-start-column="35" selection-end-line="47" selection-end-column="35" />
               <folding>
-                <element signature="e#1512#1520#0" expanded="true" />
+                <element signature="imports" expanded="false" />
+                <element signature="e#388#389#0" expanded="false" />
+                <element signature="e#430#431#0" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -77,6 +137,11 @@
       <find>据</find>
       <find>/</find>
       <find />
+      <find>3D</find>
+      <find>能</find>
+      <find>设想</find>
+      <find>人员</find>
+      <find>劳动力</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -120,15 +185,21 @@
         <option value="$PROJECT_DIR$/src/main/java/constant/IOConstant.java" />
         <option value="$PROJECT_DIR$/src/main/java/util/IO.java" />
         <option value="$PROJECT_DIR$/src/main/java/util/Print.java" />
-        <option value="$PROJECT_DIR$/src/main/java/constant/PathConstant.java" />
         <option value="$PROJECT_DIR$/src/main/java/pretreatment/handleData/HandleTxtData.java" />
-        <option value="$PROJECT_DIR$/src/main/java/domain/Sentence.java" />
         <option value="$PROJECT_DIR$/pretreament/TxtData/stopword.txt" />
         <option value="$PROJECT_DIR$/src/main/java/pretreatment/stopWordFilter/StopWordFilter.java" />
         <option value="$PROJECT_DIR$/pretreament/Stopword/停用词表1.txt" />
         <option value="$PROJECT_DIR$/pretreament/Stopword/中文停用词.txt" />
-        <option value="$PROJECT_DIR$/src/main/java/TextSemanticAnalysis.java" />
         <option value="$PROJECT_DIR$/src/main/java/pretreatment/participle/Participle.java" />
+        <option value="$PROJECT_DIR$/pretreament/Synonymy/哈工大信息检索研究中心同义词词林扩展版.txt" />
+        <option value="$PROJECT_DIR$/src/main/java/constant/PathConstant.java" />
+        <option value="$PROJECT_DIR$/src/main/java/domain/Synonym.java" />
+        <option value="$PROJECT_DIR$/src/test/java/pretreament/Synonymy/ReadSynonymyTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/domain/Sentence.java" />
+        <option value="$PROJECT_DIR$/src/main/java/pretreatment/synonymy/ReadSynonymy.java" />
+        <option value="$PROJECT_DIR$/src/main/java/pretreatment/synonymy/HandledSynonymy.java" />
+        <option value="$PROJECT_DIR$/src/main/java/TextSemanticAnalysis.java" />
+        <option value="$PROJECT_DIR$/src/test/java/pretreament/Synonymy/HandleSynonymyTest.java" />
       </list>
     </option>
   </component>
@@ -162,6 +233,9 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
+      <pane id="Scratches" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -238,11 +312,75 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="pretreament" />
+              <option name="myItemId" value="src" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="TxtData" />
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="pretreatment" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="synonymy" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="TextSemanticAnalysis" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="TextSemanticAnalysis" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="pretreatment" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="TextSemanticAnalysis" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="TextSemanticAnalysis" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="domain" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -262,9 +400,6 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
-      <pane id="Scratches" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -278,11 +413,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\工程文件\IdeaProject\TextSemanticAnalysis\pretreament\Synonymy" />
       <recent name="D:\工程文件\IdeaProject\TextSemanticAnalysis\pretreament\Stopword" />
       <recent name="D:\工程文件\IdeaProject\textSemanticAnalysis\src\main\java\pretreatment\segment" />
       <recent name="D:\工程文件\IdeaProject\textSemanticAnalysis\ExcelData" />
       <recent name="D:\工程文件\IdeaProject\textSemanticAnalysis" />
-      <recent name="D:\工程文件\IdeaProject\textSemanticAnalysis\lib" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\工程文件\IdeaProject\textSemanticAnalysis\pretreament" />
@@ -301,58 +436,6 @@
     </option>
   </component>
   <component name="RunManager" selected="Application.TextSemanticAnalysis">
-    <configuration default="false" name="POIExcelTest.readExcelTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="pretreament.poi.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <module name="textSemanticAnalysis" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="pretreament.poi" />
-      <option name="MAIN_CLASS_NAME" value="pretreament.poi.POIExcelTest" />
-      <option name="METHOD_NAME" value="readExcelTest" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
-      <method />
-    </configuration>
-    <configuration default="false" name="HandleExcelDataTest.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="pretreament.HandleData.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <module name="textSemanticAnalysis" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="pretreament.HandleData" />
-      <option name="MAIN_CLASS_NAME" value="pretreament.HandleData.HandleExcelDataTest" />
-      <option name="METHOD_NAME" value="test" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
-      <method />
-    </configuration>
     <configuration default="false" name="TextSemanticAnalysis" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <option name="MAIN_CLASS_NAME" value="TextSemanticAnalysis" />
@@ -408,6 +491,58 @@
       <option name="MAIN_CLASS_NAME" value="pretreament.stopWordFilter.StopWordFilterTest" />
       <option name="METHOD_NAME" value="readStopWordTest" />
       <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="false" name="HandleSynonymyTest.readSynonymyTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="pretreament.Synonymy.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="textSemanticAnalysis" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="pretreament.Synonymy" />
+      <option name="MAIN_CLASS_NAME" value="pretreament.Synonymy.HandleSynonymyTest" />
+      <option name="METHOD_NAME" value="readSynonymyTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="false" name="HandleSynonymyTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="pretreament.Synonymy.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="textSemanticAnalysis" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="pretreament.Synonymy" />
+      <option name="MAIN_CLASS_NAME" value="pretreament.Synonymy.HandleSynonymyTest" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
@@ -808,19 +943,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="JUnit.POIExcelTest.readExcelTest" />
-      <item index="1" class="java.lang.String" itemvalue="JUnit.HandleExcelDataTest.test" />
-      <item index="2" class="java.lang.String" itemvalue="Application.TextSemanticAnalysis" />
-      <item index="3" class="java.lang.String" itemvalue="JUnit.ParticipleUtilTest.segmentTest" />
-      <item index="4" class="java.lang.String" itemvalue="JUnit.StopWordFilterTest.readStopWordTest" />
+      <item index="0" class="java.lang.String" itemvalue="Application.TextSemanticAnalysis" />
+      <item index="1" class="java.lang.String" itemvalue="JUnit.ParticipleUtilTest.segmentTest" />
+      <item index="2" class="java.lang.String" itemvalue="JUnit.StopWordFilterTest.readStopWordTest" />
+      <item index="3" class="java.lang.String" itemvalue="JUnit.HandleSynonymyTest.readSynonymyTest" />
+      <item index="4" class="java.lang.String" itemvalue="JUnit.HandleSynonymyTest" />
     </list>
     <recent_temporary>
       <list size="5">
         <item index="0" class="java.lang.String" itemvalue="Application.TextSemanticAnalysis" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.StopWordFilterTest.readStopWordTest" />
-        <item index="2" class="java.lang.String" itemvalue="JUnit.ParticipleUtilTest.segmentTest" />
-        <item index="3" class="java.lang.String" itemvalue="JUnit.HandleExcelDataTest.test" />
-        <item index="4" class="java.lang.String" itemvalue="JUnit.POIExcelTest.readExcelTest" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.HandleSynonymyTest.readSynonymyTest" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.HandleSynonymyTest" />
+        <item index="3" class="java.lang.String" itemvalue="JUnit.StopWordFilterTest.readStopWordTest" />
+        <item index="4" class="java.lang.String" itemvalue="JUnit.ParticipleUtilTest.segmentTest" />
       </list>
     </recent_temporary>
   </component>
@@ -849,21 +984,24 @@
       <workItem from="1501156072897" duration="4690000" />
       <workItem from="1501171187267" duration="5966000" />
       <workItem from="1501213932878" duration="4897000" />
+      <workItem from="1501232489152" duration="3829000" />
+      <workItem from="1501238231831" duration="4436000" />
+      <workItem from="1501259204826" duration="2963000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="SegmentTest_segmentTest - 2017.07.18 at 15h 46m 34s.xml">
-      <configuration name="SegmentTest.segmentTest" configurationId="JUnit" />
+    <history-entry file="HandleSynonymyTest_readSynonymyTest - 2017.07.29 at 01h 13m 45s.xml">
+      <configuration name="HandleSynonymyTest.readSynonymyTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="SegmentTest_segmentTest - 2017.07.18 at 15h 49m 34s.xml">
-      <configuration name="SegmentTest.segmentTest" configurationId="JUnit" />
+    <history-entry file="ReadSynonymyTest_readSynonymyTest - 2017.07.28 at 19h 44m 37s.xml">
+      <configuration name="ReadSynonymyTest.readSynonymyTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="SegmentTest_segmentTest - 2017.07.18 at 15h 49m 44s.xml">
-      <configuration name="SegmentTest.segmentTest" configurationId="JUnit" />
+    <history-entry file="ReadSynonymyTest_readSynonymyTest - 2017.07.28 at 21h 16m 04s.xml">
+      <configuration name="ReadSynonymyTest.readSynonymyTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="SegmentTest_segmentTest - 2017.07.18 at 15h 49m 52s.xml">
-      <configuration name="SegmentTest.segmentTest" configurationId="JUnit" />
+    <history-entry file="ReadSynonymyTest_readSynonymyTest - 2017.07.28 at 21h 26m 44s.xml">
+      <configuration name="ReadSynonymyTest.readSynonymyTest" configurationId="JUnit" />
     </history-entry>
     <history-entry file="SegmentTest_segmentTest - 2017.07.18 at 15h 50m 02s.xml">
       <configuration name="SegmentTest.segmentTest" configurationId="JUnit" />
@@ -885,7 +1023,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="47370000" />
+    <option name="totallyTimeSpent" value="58598000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-9" y="-9" width="1938" height="1048" extended-state="6" />
@@ -900,12 +1038,12 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32930845" sideWeight="0.528125" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.31257078" sideWeight="0.45425868" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.31257078" sideWeight="0.45425868" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18830472" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19635193" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32842582" sideWeight="0.471875" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -929,7 +1067,7 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="2" />
+      <option name="time" value="3" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -938,35 +1076,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/util/CLibrary.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="296">
-          <caret line="9" column="25" lean-forward="false" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/util/ParticipleUtilTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="518">
-          <caret line="16" column="9" lean-forward="true" selection-start-line="16" selection-start-column="9" selection-end-line="16" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/TextSemanticAnalysis.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/pretreatment/handleData/HandleExcelData.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1221">
-          <caret line="33" column="13" lean-forward="false" selection-start-line="33" selection-start-column="13" selection-end-line="33" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/util/POITest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="333">
@@ -1166,7 +1275,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="26" column="5" lean-forward="true" selection-start-line="26" selection-start-column="5" selection-end-line="26" selection-end-column="5" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1181,11 +1289,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="288">
           <caret line="11" column="48" lean-forward="false" selection-start-line="11" selection-start-column="48" selection-end-line="11" selection-end-column="48" />
-          <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="e#233#234#0" expanded="false" />
-            <element signature="e#288#289#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1201,10 +1304,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1129">
           <caret line="38" column="53" lean-forward="true" selection-start-line="38" selection-start-column="53" selection-end-line="38" selection-end-column="53" />
-          <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="e#980#988#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1216,22 +1315,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/constant/PathConstant.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="320">
-          <caret line="10" column="91" lean-forward="false" selection-start-line="10" selection-start-column="91" selection-end-line="10" selection-end-column="91" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pretreament/TxtData/stopword.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="32">
-          <caret line="1" column="80" lean-forward="false" selection-start-line="1" selection-start-column="80" selection-end-line="1" selection-end-column="80" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/pretreament/TxtData/stopword.txt" />
     <entry file="file://$PROJECT_DIR$/src/main/java/pretreatment/handleData/HandleTxtData.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="215">
@@ -1248,23 +1332,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/domain/Sentence.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="245">
-          <caret line="28" column="36" lean-forward="false" selection-start-line="28" selection-start-column="36" selection-end-line="28" selection-end-column="36" />
-          <folding>
-            <element signature="e#563#564#0" expanded="true" />
-            <element signature="e#611#612#0" expanded="true" />
-            <element signature="e#645#646#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/pretreament/Stopword/停用词表1.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="422">
           <caret line="1762" column="6" lean-forward="true" selection-start-line="1762" selection-start-column="6" selection-end-line="1762" selection-end-column="6" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1272,7 +1343,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="447">
           <caret line="1314" column="0" lean-forward="true" selection-start-line="1314" selection-start-column="0" selection-end-line="1314" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1280,15 +1350,18 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/TextSemanticAnalysis.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/pretreatment/participle/Participle.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="405">
-          <caret line="40" column="55" lean-forward="true" selection-start-line="40" selection-start-column="55" selection-end-line="40" selection-end-column="55" />
-          <folding />
+        <state relative-caret-position="1184">
+          <caret line="47" column="35" lean-forward="false" selection-start-line="47" selection-start-column="35" selection-end-line="47" selection-end-column="35" />
+          <folding>
+            <element signature="imports" expanded="false" />
+            <element signature="e#388#389#0" expanded="false" />
+            <element signature="e#430#431#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1296,17 +1369,78 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="224">
           <caret line="7" column="39" lean-forward="true" selection-start-line="7" selection-start-column="39" selection-end-line="7" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pretreament/Synonymy/哈工大信息检索研究中心同义词词林扩展版.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="32">
+          <caret line="3" column="16" lean-forward="false" selection-start-line="3" selection-start-column="11" selection-end-line="3" selection-end-column="16" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/pretreatment/participle/Participle.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/constant/PathConstant.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="407">
-          <caret line="46" column="34" lean-forward="true" selection-start-line="46" selection-start-column="34" selection-end-line="46" selection-end-column="34" />
+        <state relative-caret-position="352">
+          <caret line="11" column="94" lean-forward="false" selection-start-line="11" selection-start-column="94" selection-end-line="11" selection-end-column="94" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/domain/Synonym.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="640">
+          <caret line="31" column="0" lean-forward="false" selection-start-line="31" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/domain/Sentence.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="384">
+          <caret line="12" column="44" lean-forward="true" selection-start-line="11" selection-start-column="12" selection-end-line="12" selection-end-column="44" />
           <folding>
-            <element signature="e#1512#1520#0" expanded="true" />
+            <element signature="e#790#791#0" expanded="true" />
+            <element signature="e#833#834#0" expanded="true" />
+            <element signature="e#1026#1027#0" expanded="true" />
+            <element signature="e#1067#1068#0" expanded="true" />
+            <element signature="e#1141#1142#0" expanded="true" />
+            <element signature="e#1201#1202#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/pretreatment/synonymy/HandleSynonymy.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="534">
+          <caret line="53" column="26" lean-forward="false" selection-start-line="53" selection-start-column="26" selection-end-line="53" selection-end-column="26" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1338#1346#0" expanded="true" />
+            <element signature="e#2146#2154#0" expanded="true" />
+            <element signature="e#2217#2225#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/pretreament/Synonymy/HandleSynonymyTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="352">
+          <caret line="11" column="31" lean-forward="false" selection-start-line="11" selection-start-column="31" selection-end-line="11" selection-end-column="31" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#221#222#0" expanded="true" />
+            <element signature="e#275#276#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/TextSemanticAnalysis.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="525">
+          <caret line="47" column="0" lean-forward="true" selection-start-line="47" selection-start-column="0" selection-end-line="47" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1367,6 +1501,7 @@
             <option name="proportions">
               <list>
                 <option value="0.2" />
+                <option value="0.6" />
               </list>
             </option>
           </splitter-proportions>

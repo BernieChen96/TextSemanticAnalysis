@@ -9,6 +9,8 @@ public class Sentence {
     private String content;
     private List<Label> labels;
     private List<String> words;
+    private List<String> unregisteredSynonyms;
+    private List<String> registeredSynonyms;
 
     public String getContent() {
         return content;
@@ -32,5 +34,21 @@ public class Sentence {
 
     public void setWords(List<String> words) {
         this.words = words;
+    }
+
+    public List<String> getUnregisteredSynonyms() {
+        return unregisteredSynonyms;
+    }
+
+    public void setUnregisteredSynonyms(List<String> unregisteredSynonyms) {
+        this.unregisteredSynonyms = unregisteredSynonyms;
+    }
+
+    public List<String> getRegisteredSynonyms() {
+        return registeredSynonyms;
+    }
+
+    public void setRegisteredSynonyms(List<String> registeredSynonyms) {
+        this.registeredSynonyms = registeredSynonyms;
     }
 }

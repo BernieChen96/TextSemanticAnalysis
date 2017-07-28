@@ -2,11 +2,7 @@
 <project version="4">
   <component name="Encoding">
     <file url="file://$PROJECT_DIR$/pretreament/Stopword/中文停用词.txt" charset="GBK" />
-    <file url="file://$PROJECT_DIR$/pretreament/Stopword/中文停用词.txt" charset="GBK" />
-    <file url="file://$PROJECT_DIR$/pretreament/Stopword/中文停用词.txt" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/pretreament/Stopword/中文停用词.txt" charset="GBK" />
-    <file url="file://$PROJECT_DIR$/pretreament/Stopword/停用词表1.txt" charset="GBK" />
     <file url="file://$PROJECT_DIR$/pretreament/Stopword/停用词表1.txt" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/pretreament/TxtData/stopword.txt" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/pretreament/Synonymy/哈工大信息检索研究中心同义词词林扩展版.txt" charset="GBK" />
   </component>
 </project>

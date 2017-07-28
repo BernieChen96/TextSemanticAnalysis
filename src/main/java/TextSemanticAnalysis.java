@@ -5,6 +5,7 @@ import pretreatment.handleData.HandleTxtData;
 import pretreatment.POI.POIExcel;
 import pretreatment.participle.Participle;
 import pretreatment.stopWordFilter.StopWordFilter;
+import pretreatment.synonymy.HandleSynonymy;
 import util.Print;
 
 import java.io.File;
@@ -36,10 +37,14 @@ public class TextSemanticAnalysis {
         } else {
 
         }
-        Print.printList(sentences.get(1).getWords());
+//        Print.printList(sentences.get(1).getWords());
         //分词完毕后，对分词后的句子进行停用词过滤
         new StopWordFilter(sentences).stopWordFilter();
-        Print.printList(sentences.get(1).getWords());
+//        Print.printList(sentences.get(1).getWords());
+        //判断分词结果是否为《同义词词林》未登录词
+        new HandleSynonymy(sentences).judgeIsRegister();
+        Print.printList(sentences.get(1).getRegisteredSynonyms());
+        Print.printList(sentences.get(1).getUnregisteredSynonyms());
 
     }
 

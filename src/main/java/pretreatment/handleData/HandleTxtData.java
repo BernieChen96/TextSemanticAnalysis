@@ -23,7 +23,7 @@ public class HandleTxtData {
         int sentenceCount = 0;
         while (sentenceIterator.hasNext()) {
             Sentence sentence = sentenceIterator.next();
-            IO.write(PathConstant.TXT_PATH, "第" + sentenceCount++ + "内容：" + sentence.content);
+            IO.write(PathConstant.TXT_PATH, "第" + sentenceCount++ + "内容：" + sentence.getContent());
             Iterator<Label> labelIterator = sentence.getLabels().iterator();
             int labelCount = 0;
             while (labelIterator.hasNext()) {

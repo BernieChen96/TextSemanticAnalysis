@@ -1,6 +1,10 @@
 package util;
 
+import sun.nio.cs.ext.GBK;
+
 import java.io.*;
+import java.util.ArrayList;
+import java.util.List;
 
 /**
  * Created by 51157 on 2017/7/17.
@@ -25,5 +29,27 @@ public class IO {
         } catch (IOException e) {
             e.printStackTrace();
         }
+    }
+
+    public static List<String> readLineForTxt(String filePath,String charsetName) {
+        File file = new File(filePath);
+        List<String> allLine = new ArrayList<String>();
+        try {
+            if (!file.exists()) {
+                System.out.println(filePath + "不存在");
+                return null;
+            }
+            in = new FileInputStream(file);
+            br = new BufferedReader(new InputStreamReader(in, charsetName));
+            while (true) {
+                String currentLine = br.readLine();
+                if (currentLine == null)
+                    break;
+                allLine.add(currentLine);
+            }
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+        return allLine;
     }
 }

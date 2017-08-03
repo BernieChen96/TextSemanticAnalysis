@@ -1,6 +1,7 @@
 package domain;
 
 import java.util.List;
+import java.util.Map;
 
 /**
  * Created by 51157 on 2017/7/17.
@@ -11,6 +12,7 @@ public class Sentence {
     private List<String> words;
     private List<String> unregisteredSynonyms;
     private List<String> registeredSynonyms;
+    private List<String> sentencePolysemousWords;
 
     public String getContent() {
         return content;
@@ -50,5 +52,13 @@ public class Sentence {
 
     public void setRegisteredSynonyms(List<String> registeredSynonyms) {
         this.registeredSynonyms = registeredSynonyms;
+    }
+
+    public List<String> getSentencePolysemousWords() {
+        return sentencePolysemousWords;
+    }
+
+    public void setSentencePolysemousWords(List<String> sentencePolysemousWords) {
+        this.sentencePolysemousWords = sentencePolysemousWords;
     }
 }

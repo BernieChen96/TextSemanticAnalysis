@@ -13,6 +13,7 @@ public class Synonym {
     private String codeX3;
     private String codeX4;
     private String codeX5;
+    private String F;
 
     public String getCode() {
         return code;
@@ -68,5 +69,13 @@ public class Synonym {
 
     public void setCodeX5(String codeX5) {
         this.codeX5 = codeX5;
+    }
+
+    public String getF() {
+        return F;
+    }
+
+    public void setF(String f) {
+        F = f;
     }
 }

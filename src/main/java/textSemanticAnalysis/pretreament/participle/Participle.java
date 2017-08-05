@@ -23,20 +23,22 @@ public class Participle {
 
     public void participle() {
         Iterator<Sentence> sentenceIterator = sentences.listIterator();
-        int sentenceCount = 0;
+        int sentenceCount = 1;
         while (sentenceIterator.hasNext()) {
             Sentence sentence = sentenceIterator.next();
             String participleString = ParticipleUtil.participle(sentence.getContent());
             sentence.setContent(participleString);
             sentence.setWords(getWords(participleString));
             IO.write(PathConstant.PARTICIPLE_PATH, "第" + sentenceCount++ + "内容：" + participleString);
-            Iterator<Label> labelIterator = sentence.getLabels().iterator();
-            int labelCount = 0;
-            while (labelIterator.hasNext()) {
-                labelCount++;
-                Label label = labelIterator.next();
-                IO.write(PathConstant.PARTICIPLE_PATH, "标签" + labelCount + ":" + label.affection + "," + label.classify);
-            }
+//            Iterator<Label> labelIterator = sentence.getLabels().iterator();
+//            int labelCount = 0;
+//            while (labelIterator.hasNext()) {
+//                labelCount++;
+//                Label label = labelIterator.next();
+            Label label = sentence.getLabel();
+            IO.write(PathConstant.PARTICIPLE_PATH, "标签:" + label.affection + "," + label.classify);
+//                IO.write(PathConstant.PARTICIPLE_PATH, "标签" + labelCount + ":" + label.affection + "," + label.classify);
+//            }
             IO.write(PathConstant.PARTICIPLE_PATH, "\r\n");
         }
     }

@@ -33,9 +33,9 @@ public class POI {
             //工作表的列数
             int colLength = row.getLastCellNum();
             System.out.println("行数：" + rowLength + ",列数：" + colLength);
-            result = new String[rowLength][colLength];
-            for (int i = 0; i < rowLength; i++) {
-                row = sheet.getRow(i);
+            result = new String[rowLength-1][colLength];
+            for (int i = 0; i < rowLength-1; i++) {
+                row = sheet.getRow(i+1);
                 for (int j = 0; j < colLength; j++) {
                     Cell cell = row.getCell(j);
                     if (cell != null)

@@ -4,6 +4,7 @@ import constant.PathConstant;
 import domain.Label;
 import domain.Sentence;
 import util.IO;
+import util.Print;
 
 import java.util.Iterator;
 import java.util.List;
@@ -20,17 +21,19 @@ public class HandleTxtData {
 
     public void writeSentencesToTxt() {
         Iterator<Sentence> sentenceIterator = sentences.listIterator();
-        int sentenceCount = 0;
+        int sentenceCount = 1;
         while (sentenceIterator.hasNext()) {
             Sentence sentence = sentenceIterator.next();
             IO.write(PathConstant.TXT_PATH, "第" + sentenceCount++ + "内容：" + sentence.getContent());
-            Iterator<Label> labelIterator = sentence.getLabels().iterator();
-            int labelCount = 0;
-            while (labelIterator.hasNext()) {
-                labelCount++;
-                Label label = labelIterator.next();
-                IO.write(PathConstant.TXT_PATH, "标签" + labelCount + ":" + label.affection + "," + label.classify);
-            }
+//            Iterator<Label> labelIterator = sentence.getLabels().iterator();
+//            int labelCount = 0;
+//            while (labelIterator.hasNext()) {
+//                labelCount++;
+//                Label label = labelIterator.next();
+            Label label = sentence.getLabel();
+            IO.write(PathConstant.TXT_PATH, "标签:" + label.affection + "," + label.classify);
+//            IO.write(PathConstant.TXT_PATH, "标签" + labelCount + ":" + label.affection + "," + label.classify);
+//            }
             IO.write(PathConstant.TXT_PATH, "\r\n");
         }
     }

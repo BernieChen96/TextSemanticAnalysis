@@ -20,7 +20,6 @@ import java.util.Map;
 public class HandleSogouR {
     List<String> sogouRRelativeWords = null;
     List<SogouRWord> sogouRWords = null;
-    Map<String, List<Synonym>> polysemousWords = null;
     List<Sentence> sentences = null;
     static int sentenceCount = 0;
 
@@ -87,35 +86,11 @@ public class HandleSogouR {
             sogouRWord.setRightWord(sogouRRelativeWord.substring(sogouRRelativeWord.indexOf("-") + 1, sogouRRelativeWord.indexOf(" ")));
             sogouRWord.setCount(Integer.parseInt(sogouRRelativeWord.substring(sogouRRelativeWord.indexOf(" ") + 1)));
             sogouRWords.add(sogouRWord);
-//            if (isPplysemousWord(sogouRWord.getLeftWord())) {
-//
-//            }
-//            Print.print(sogouRRelativeWord);
         }
     }
 
-    public void setPolysemousWords(Map<String, List<Synonym>> polysemousWords) {
-        this.polysemousWords = polysemousWords;
-    }
-
-    /**
-     * 判断是否是多义词
-     *
-     * @param word
-     * @return
-     */
-    boolean isPplysemousWord(String word) {
-        if (polysemousWords.get(word) == null)
-            return false;
-        else
-            return true;
-    }
 
     public List<SogouRWord> getSogouRWords() {
         return sogouRWords;
-    }
-
-    public void setSogouRWords(List<SogouRWord> sogouRWords) {
-        this.sogouRWords = sogouRWords;
     }
 }

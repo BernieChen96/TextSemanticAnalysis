@@ -12,10 +12,5 @@ public class HandleSogouRTest {
         new HandleSogouR(null, false);
     }
 
-    @Test
-    public void isPplysemousWordTest() {
-        HandleSogouR handleSogouR = new HandleSogouR(null, true);
-        handleSogouR.setPolysemousWords(new HandleSynonymy(null).getPolysemousWordsMap());
-        handleSogouR.isPplysemousWord("你好吗");
-    }
+
 }

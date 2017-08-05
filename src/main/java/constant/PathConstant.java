@@ -15,4 +15,6 @@ public class PathConstant {
     public static final String SOGOUR_PATH = "pretreament/sogouR/sogouR.mini.txt";
     //短文本集的搭配库
     public static final String SHORTTEXTSET_COLLOCATION_PATH = "pretreament/sogouR/ShortTextSetCollocation.txt";
+    //义项判别结果
+    public static final String WORDMEANINGDISCRIMATION_PATH = "pretreament/TxtData/WordMeaningDiscriminationResult.txt";
 }

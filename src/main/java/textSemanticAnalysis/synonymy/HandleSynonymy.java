@@ -15,9 +15,12 @@ import java.util.*;
  * Created by 51157 on 2017/7/28.
  */
 public class HandleSynonymy {
+    //编码集合
     List<Synonym> synonymy = null;
+    //词语对应的编码集合
     MultiValueMap<String, Synonym> synonymMap = null;
     List<Sentence> sentences = null;
+    //多义词词典
     Map<String, List<Synonym>> polysemousWordsMap = null;
 
     public HandleSynonymy(List<Sentence> sentences) {
@@ -96,7 +99,7 @@ public class HandleSynonymy {
     }
 
     /**
-     * 通过多义词词典，识别sentence中同义词的多义词词语
+     * 通过多义词词典，识别sentence中同义词的多义词词语和单义词
      */
     public void getSentencePolysemousWords() {
         getPolysemousWords();
@@ -104,13 +107,17 @@ public class HandleSynonymy {
         while (sentenceIterator.hasNext()) {
             Sentence sentence = sentenceIterator.next();
             List<String> registeredSynonyms = sentence.getRegisteredSynonyms();
-            List<String> sentencePolysemousWords = new ArrayList<String>();
+            Map<String, List<Synonym>> sentencePolysemousWordsMap = new HashMap<String, List<Synonym>>();
+            Map<String, List<Synonym>> sentenceSinglsSynonymWordsMap = new HashMap<String, List<Synonym>>();
+            sentence.setSentencePolysemousWordsMap(sentencePolysemousWordsMap);
+            sentence.setSentenceSingleSynonymWordsMap(sentenceSinglsSynonymWordsMap);
             for (String registeredSynonmy : registeredSynonyms) {
                 if (polysemousWordsMap.get(registeredSynonmy) != null) {
-                    sentencePolysemousWords.add(registeredSynonmy);
+                    sentencePolysemousWordsMap.put(registeredSynonmy, polysemousWordsMap.get(registeredSynonmy));
+                } else {
+                    sentenceSinglsSynonymWordsMap.put(registeredSynonmy, synonymMap.getValues(registeredSynonmy));
                 }
             }
-            sentence.setSentencePolysemousWords(sentencePolysemousWords);
         }
     }
 

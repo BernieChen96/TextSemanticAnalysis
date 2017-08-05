@@ -1,5 +1,7 @@
 package util;
 
+import domain.Synonym;
+
 import java.text.SimpleDateFormat;
 import java.util.Date;
 import java.util.HashMap;
@@ -33,6 +35,14 @@ public class Print {
         for (Map.Entry<Object, Object> entry : contentMap.entrySet()) {
             Print.print("当前Key：" + entry.getKey());
             Print.print(entry.getValue());
+        }
+    }
+
+    public static void printMapValueList(Map<Object, Object> contentMap) {
+        for (Map.Entry<Object, Object> entry : contentMap.entrySet()) {
+            Print.print("当前Key：" + entry.getKey());
+            List<Synonym> list = (List) entry.getValue();
+            Print.print(list.size() + ":" + list.get(0).getCode());
         }
     }
 }

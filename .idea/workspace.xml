@@ -2,64 +2,30 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8188de1b-94c5-495c-9898-b4bdfda2677b" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pretreament/ExcelData/Test数据.xlsx" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pretreament/SogouR/SogouR.mini.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/constant/SynonymyConstant.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/domain/SogouRWord.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/external/LinkedMultiValueMap.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/external/impl/MultiValueMap.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/textSemanticAnalysis/sogouR/HandleSogouR.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/textSemanticAnalysis/synonymy/ComputeDistance.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/textSemanticAnalysis/Synonymy/ComputeDistanceTest.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/textSemanticAnalysis/sogouR/HandleSogouRTest.java" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pretreament/TxtData/participle.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pretreament/TxtData/sentences.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/pretreatment/POI/POIExcel.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/pretreatment/handleData/HandleExcelData.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/pretreatment/handleData/HandleTxtData.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/pretreatment/participle/NlpirTest$CLibrary.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/pretreatment/participle/NlpirTest.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/pretreatment/participle/Participle.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/pretreatment/participle/ReadConfigUtil.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/pretreatment/participle/Segment.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/pretreatment/participle/SystemParas.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/pretreatment/stopWordFilter/StopWordFilter.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/pretreatment/synonymy/HandleSynonymy.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/test-classes/pretreament/HandleData/HandleExcelDataTest.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/test-classes/pretreament/Synonymy/HandleSynonymyTest.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/test-classes/pretreament/poi/POIExcelTest.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/test-classes/pretreament/segment/ParticipleUtilTest.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/test-classes/pretreament/stopWordFilter/StopWordFilterTest.class" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Data/20170729.err" afterPath="$PROJECT_DIR$/Data/20170729.err" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pretreament/ExcelData/数据导出.xlsx" afterPath="$PROJECT_DIR$/pretreament/ExcelData/数据导出.xlsx" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pretreament/SogouR/ShortTextSetCollocation.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/textSemanticAnalysis/wordMeaningDiscrimination/WordMeaningDiscrimination.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Data/20170803.err" afterPath="$PROJECT_DIR$/Data/20170803.err" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/TextSemanticAnalysis.class" afterPath="$PROJECT_DIR$/target/classes/TextSemanticAnalysis.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/constant/PathConstant.class" afterPath="$PROJECT_DIR$/target/classes/constant/PathConstant.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/domain/Sentence.class" afterPath="$PROJECT_DIR$/target/classes/domain/Sentence.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/domain/Synonym.class" afterPath="$PROJECT_DIR$/target/classes/domain/Synonym.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/util/Print.class" afterPath="$PROJECT_DIR$/target/classes/util/Print.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/encodings.xml" afterPath="$PROJECT_DIR$/.idea/encodings.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/textSemanticAnalysis/pretreament/handleData/HandleExcelData.class" afterPath="$PROJECT_DIR$/target/classes/textSemanticAnalysis/pretreament/handleData/HandleExcelData.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/textSemanticAnalysis/pretreament/handleData/HandleTxtData.class" afterPath="$PROJECT_DIR$/target/classes/textSemanticAnalysis/pretreament/handleData/HandleTxtData.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/textSemanticAnalysis/pretreament/participle/Participle.class" afterPath="$PROJECT_DIR$/target/classes/textSemanticAnalysis/pretreament/participle/Participle.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/textSemanticAnalysis/sogouR/HandleSogouR.class" afterPath="$PROJECT_DIR$/target/classes/textSemanticAnalysis/sogouR/HandleSogouR.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/textSemanticAnalysis/synonymy/HandleSynonymy.class" afterPath="$PROJECT_DIR$/target/classes/textSemanticAnalysis/synonymy/HandleSynonymy.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/util/POI.class" afterPath="$PROJECT_DIR$/target/classes/util/POI.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/textSemanticAnalysis/sogouR/HandleSogouRTest.class" afterPath="$PROJECT_DIR$/target/test-classes/textSemanticAnalysis/sogouR/HandleSogouRTest.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pretreament/Stopword/中文停用词.txt" afterPath="$PROJECT_DIR$/pretreament/Stopword/中文停用词.txt" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/TextSemanticAnalysis.java" afterPath="$PROJECT_DIR$/src/main/java/TextSemanticAnalysis.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/constant/PathConstant.java" afterPath="$PROJECT_DIR$/src/main/java/constant/PathConstant.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/domain/Sentence.java" afterPath="$PROJECT_DIR$/src/main/java/domain/Sentence.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/domain/Synonym.java" afterPath="$PROJECT_DIR$/src/main/java/domain/Synonym.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/textSemanticAnalysis/pretreament/handleData/HandleExcelData.java" afterPath="$PROJECT_DIR$/src/main/java/textSemanticAnalysis/pretreament/handleData/HandleExcelData.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/textSemanticAnalysis/pretreament/handleData/HandleTxtData.java" afterPath="$PROJECT_DIR$/src/main/java/textSemanticAnalysis/pretreament/handleData/HandleTxtData.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/textSemanticAnalysis/pretreament/participle/Participle.java" afterPath="$PROJECT_DIR$/src/main/java/textSemanticAnalysis/pretreament/participle/Participle.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/textSemanticAnalysis/sogouR/HandleSogouR.java" afterPath="$PROJECT_DIR$/src/main/java/textSemanticAnalysis/sogouR/HandleSogouR.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/textSemanticAnalysis/synonymy/HandleSynonymy.java" afterPath="$PROJECT_DIR$/src/main/java/textSemanticAnalysis/synonymy/HandleSynonymy.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/util/POI.java" afterPath="$PROJECT_DIR$/src/main/java/util/POI.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/util/Print.java" afterPath="$PROJECT_DIR$/src/main/java/util/Print.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/pretreatment/POI/POIExcel.java" afterPath="$PROJECT_DIR$/src/main/java/textSemanticAnalysis/pretreament/POI/POIExcel.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/pretreatment/handleData/HandleExcelData.java" afterPath="$PROJECT_DIR$/src/main/java/textSemanticAnalysis/pretreament/handleData/HandleExcelData.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/pretreatment/handleData/HandleTxtData.java" afterPath="$PROJECT_DIR$/src/main/java/textSemanticAnalysis/pretreament/handleData/HandleTxtData.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/pretreatment/participle/NlpirTest.java" afterPath="$PROJECT_DIR$/src/main/java/textSemanticAnalysis/pretreament/participle/NlpirTest.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/pretreatment/participle/Participle.java" afterPath="$PROJECT_DIR$/src/main/java/textSemanticAnalysis/pretreament/participle/Participle.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/pretreatment/participle/ReadConfigUtil.java" afterPath="$PROJECT_DIR$/src/main/java/textSemanticAnalysis/pretreament/participle/ReadConfigUtil.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/pretreatment/participle/Segment.java" afterPath="$PROJECT_DIR$/src/main/java/textSemanticAnalysis/pretreament/participle/Segment.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/pretreatment/participle/SystemParas.java" afterPath="$PROJECT_DIR$/src/main/java/textSemanticAnalysis/pretreament/participle/SystemParas.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/pretreatment/stopWordFilter/StopWordFilter.java" afterPath="$PROJECT_DIR$/src/main/java/textSemanticAnalysis/pretreament/stopWordFilter/StopWordFilter.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/pretreatment/synonymy/HandleSynonymy.java" afterPath="$PROJECT_DIR$/src/main/java/textSemanticAnalysis/synonymy/HandleSynonymy.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/test/java/pretreament/HandleData/HandleExcelDataTest.java" afterPath="$PROJECT_DIR$/src/test/java/textSemanticAnalysis/pretreament/HandleData/HandleExcelDataTest.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/test/java/pretreament/Synonymy/HandleSynonymyTest.java" afterPath="$PROJECT_DIR$/src/test/java/textSemanticAnalysis/Synonymy/HandleSynonymyTest.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/test/java/pretreament/poi/POIExcelTest.java" afterPath="$PROJECT_DIR$/src/test/java/textSemanticAnalysis/pretreament/poi/POIExcelTest.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/test/java/pretreament/segment/ParticipleUtilTest.java" afterPath="$PROJECT_DIR$/src/test/java/textSemanticAnalysis/pretreament/segment/ParticipleUtilTest.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/test/java/pretreament/stopWordFilter/StopWordFilterTest.java" afterPath="$PROJECT_DIR$/src/test/java/textSemanticAnalysis/pretreament/stopWordFilter/StopWordFilterTest.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/textSemanticAnalysis/sogouR/HandleSogouRTest.java" afterPath="$PROJECT_DIR$/src/test/java/textSemanticAnalysis/sogouR/HandleSogouRTest.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -73,31 +39,11 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file leaf-file-name="TextSemanticAnalysis.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="TextSemanticAnalysis.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/TextSemanticAnalysis.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="608">
-              <caret line="34" column="57" lean-forward="false" selection-start-line="34" selection-start-column="57" selection-end-line="34" selection-end-column="57" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="HandleExcelData.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/textSemanticAnalysis/pretreament/handleData/HandleExcelData.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="219">
-              <caret line="24" column="52" lean-forward="true" selection-start-line="24" selection-start-column="52" selection-end-line="24" selection-end-column="52" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="HandleSogouRTest.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/textSemanticAnalysis/sogouR/HandleSogouRTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="448">
-              <caret line="17" column="84" lean-forward="true" selection-start-line="17" selection-start-column="84" selection-end-line="17" selection-end-column="84" />
+            <state relative-caret-position="471">
+              <caret line="104" column="42" lean-forward="true" selection-start-line="104" selection-start-column="42" selection-end-line="104" selection-end-column="42" />
               <folding />
             </state>
           </provider>
@@ -106,48 +52,40 @@
       <file leaf-file-name="Print.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/util/Print.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="745">
-              <caret line="31" column="17" lean-forward="false" selection-start-line="31" selection-start-column="17" selection-end-line="31" selection-end-column="17" />
+            <state relative-caret-position="713">
+              <caret line="44" column="43" lean-forward="false" selection-start-line="44" selection-start-column="43" selection-end-line="44" selection-end-column="43" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="HandleSogouR.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/textSemanticAnalysis/sogouR/HandleSogouR.java">
+      <file leaf-file-name="HandleSynonymy.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/textSemanticAnalysis/synonymy/HandleSynonymy.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="257">
-              <caret line="44" column="25" lean-forward="true" selection-start-line="44" selection-start-column="25" selection-end-line="44" selection-end-column="25" />
+            <state relative-caret-position="562">
+              <caret line="98" column="5" lean-forward="true" selection-start-line="98" selection-start-column="5" selection-end-line="98" selection-end-column="5" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="SogouR.mini.txt" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pretreament/SogouR/SogouR.mini.txt">
+      <file leaf-file-name="WordMeaningDiscrimination.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/textSemanticAnalysis/wordMeaningDiscrimination/WordMeaningDiscrimination.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-678">
-              <caret line="58044" column="7" lean-forward="true" selection-start-line="58044" selection-start-column="7" selection-end-line="58044" selection-end-column="7" />
-              <folding />
+            <state relative-caret-position="2345">
+              <caret line="80" column="39" lean-forward="true" selection-start-line="80" selection-start-column="39" selection-end-line="80" selection-end-column="39" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="中文停用词.txt" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pretreament/Stopword/中文停用词.txt">
+      <file leaf-file-name="IOConstant.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/constant/IOConstant.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="659">
-              <caret line="1326" column="1" lean-forward="true" selection-start-line="1326" selection-start-column="1" selection-end-line="1326" selection-end-column="1" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="停用词表1.txt" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pretreament/Stopword/停用词表1.txt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="819">
-              <caret line="1756" column="3" lean-forward="true" selection-start-line="1756" selection-start-column="3" selection-end-line="1756" selection-end-column="3" />
+            <state relative-caret-position="160">
+              <caret line="5" column="13" lean-forward="false" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
               <folding />
             </state>
           </provider>
@@ -156,8 +94,8 @@
       <file leaf-file-name="Sentence.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/domain/Sentence.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="320">
-              <caret line="11" column="31" lean-forward="false" selection-start-line="11" selection-start-column="31" selection-end-line="11" selection-end-column="31" />
+            <state relative-caret-position="736">
+              <caret line="26" column="0" lean-forward="false" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -197,8 +135,11 @@
       <find>杯子</find>
       <find>里</find>
       <find>了</find>
-      <find>里</find>
-      <find>了</find>
+      <find>会员</find>
+      <find>升级</find>
+      <find>考中</find>
+      <find>电</find>
+      <find>printMap</find>
     </findStrings>
     <replaceStrings>
       <replace />
@@ -216,11 +157,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/domain/Label.java" />
-        <option value="$PROJECT_DIR$/src/main/java/pretreatment/POI/readExcel.java" />
-        <option value="$PROJECT_DIR$/src/main/java/pretreatment/POI/ReadExcel.java" />
-        <option value="$PROJECT_DIR$/src/test/java/util/POITest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/util/POI.java" />
         <option value="$PROJECT_DIR$/src/main/java/pretreatment/POI/POIExcel.java" />
         <option value="$PROJECT_DIR$/src/test/java/pretreament/poi/POIExcelTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/pretreament/HandleData/HandleExcelDataTest.java" />
@@ -231,7 +167,6 @@
         <option value="$PROJECT_DIR$/src/main/java/util/Segment.java" />
         <option value="$PROJECT_DIR$/src/main/java/util/ParticipleUtil.java" />
         <option value="$PROJECT_DIR$/src/test/java/util/ParticipleUtilTest.java" />
-        <option value="$PROJECT_DIR$/pretreament/TxtData/participle.txt" />
         <option value="$PROJECT_DIR$/src/test/java/pretreament/stopWordFilter/StopWordFilterTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/constant/IOConstant.java" />
         <option value="$PROJECT_DIR$/src/main/java/util/IO.java" />
@@ -254,19 +189,25 @@
         <option value="$PROJECT_DIR$/src/main/java/textSemanticAnalysis/synonymy/ComputeDistance.java" />
         <option value="$PROJECT_DIR$/src/test/java/textSemanticAnalysis/Synonymy/ComputeDistanceTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/textSemanticAnalysis/Synonymy/HandleSynonymyTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/domain/Sentence.java" />
-        <option value="$PROJECT_DIR$/src/main/java/textSemanticAnalysis/synonymy/HandleSynonymy.java" />
         <option value="$PROJECT_DIR$/pretreament/SogouR/SogouR.mini.txt" />
-        <option value="$PROJECT_DIR$/src/main/java/constant/PathConstant.java" />
         <option value="$PROJECT_DIR$/src/main/java/domain/SogouRWord.java" />
-        <option value="$PROJECT_DIR$/src/main/java/util/Print.java" />
         <option value="$PROJECT_DIR$/pretreament/SogouR/ShortTextSetCollocation.txt" />
         <option value="$PROJECT_DIR$/pretreament/Stopword/中文停用词.txt" />
-        <option value="$PROJECT_DIR$/src/test/java/textSemanticAnalysis/sogouR/HandleSogouRTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/TextSemanticAnalysis.java" />
         <option value="$PROJECT_DIR$/pretreament/Synonymy/哈工大信息检索研究中心同义词词林扩展版.txt" />
         <option value="$PROJECT_DIR$/pretreament/Stopword/停用词表1.txt" />
+        <option value="$PROJECT_DIR$/pretreament/TxtData/participle.txt" />
         <option value="$PROJECT_DIR$/src/main/java/textSemanticAnalysis/sogouR/HandleSogouR.java" />
+        <option value="$PROJECT_DIR$/src/main/java/textSemanticAnalysis/pretreament/handleData/HandleExcelData.java" />
+        <option value="$PROJECT_DIR$/src/test/java/textSemanticAnalysis/sogouR/HandleSogouRTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/util/POI.java" />
+        <option value="$PROJECT_DIR$/src/main/java/textSemanticAnalysis/pretreament/participle/Participle.java" />
+        <option value="$PROJECT_DIR$/src/main/java/textSemanticAnalysis/pretreament/handleData/HandleTxtData.java" />
+        <option value="$PROJECT_DIR$/src/main/java/domain/Sentence.java" />
+        <option value="$PROJECT_DIR$/src/main/java/textSemanticAnalysis/synonymy/HandleSynonymy.java" />
+        <option value="$PROJECT_DIR$/src/main/java/constant/PathConstant.java" />
+        <option value="$PROJECT_DIR$/src/main/java/textSemanticAnalysis/wordMeaningDiscrimination/WordMeaningDiscrimination.java" />
+        <option value="$PROJECT_DIR$/src/main/java/TextSemanticAnalysis.java" />
+        <option value="$PROJECT_DIR$/src/main/java/util/Print.java" />
       </list>
     </option>
   </component>
@@ -300,7 +241,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -323,47 +263,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="TextSemanticAnalysis" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="TextSemanticAnalysis" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="TextSemanticAnalysis" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="TextSemanticAnalysis" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
+              <option name="myItemId" value="pretreament" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -383,8 +283,9 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scratches" />
       <pane id="PackagesPane" />
+      <pane id="Scratches" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -397,20 +298,20 @@
     <property name="project.structure.side.proportion" value="0.2" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\工程文件\IdeaProject\textSemanticAnalysis\pretreament" />
+    </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="textSemanticAnalysis.pretreament" />
       <recent name="textSemanticAnalysis" />
       <recent name="" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\工程文件\IdeaProject\TextSemanticAnalysis\pretreament\SogouR" />
       <recent name="D:\工程文件\IdeaProject\TextSemanticAnalysis\pretreament\Stopword" />
       <recent name="D:\工程文件\IdeaProject\TextSemanticAnalysis\pretreament\ExcelData" />
-      <recent name="D:\工程文件\IdeaProject\TextSemanticAnalysis\pretreament\SogouR" />
       <recent name="D:\工程文件\IdeaProject\TextSemanticAnalysis\pretreament\Synonymy" />
       <recent name="D:\工程文件\IdeaProject\textSemanticAnalysis\src\main\java\pretreatment\segment" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\工程文件\IdeaProject\textSemanticAnalysis\pretreament" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -985,7 +886,12 @@
       <workItem from="1501640318387" duration="10475000" />
       <workItem from="1501688711594" duration="17614000" />
       <workItem from="1501735904668" duration="1774000" />
-      <workItem from="1501744758471" duration="4847000" />
+      <workItem from="1501744758471" duration="6557000" />
+      <workItem from="1501767734636" duration="1756000" />
+      <workItem from="1501803251674" duration="7671000" />
+      <workItem from="1501819173227" duration="9602000" />
+      <workItem from="1501863210607" duration="595000" />
+      <workItem from="1501896866028" duration="3015000" />
     </task>
     <servers />
   </component>
@@ -1022,7 +928,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="111431000" />
+    <option name="totallyTimeSpent" value="135780000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-9" y="-9" width="1938" height="1048" extended-state="6" />
@@ -1030,19 +936,21 @@
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Nl-Palette" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33635333" sideWeight="0.4563617" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32930845" sideWeight="0.528125" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33182332" sideWeight="0.45425868" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21177803" sideWeight="0.45425868" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20600858" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19635193" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32842582" sideWeight="0.471875" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -1053,9 +961,7 @@
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2751982" sideWeight="0.4563617" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32842582" sideWeight="0.471875" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -1075,13 +981,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/textSemanticAnalysis/pretreament/participle/SystemParas.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="8" column="13" lean-forward="false" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/textSemanticAnalysis/pretreament/participle/ReadConfigUtil.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-754">
@@ -1110,24 +1009,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/textSemanticAnalysis/pretreament/POI/POIExcel.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="333">
-          <caret line="9" column="11" lean-forward="false" selection-start-line="9" selection-start-column="11" selection-end-line="9" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/util/POITest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="407">
           <caret line="11" column="35" lean-forward="false" selection-start-line="11" selection-start-column="35" selection-end-line="11" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/util/POI.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1073">
-          <caret line="35" column="18" lean-forward="false" selection-start-line="35" selection-start-column="18" selection-end-line="35" selection-end-column="18" />
         </state>
       </provider>
     </entry>
@@ -1168,13 +1053,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/domain/Label.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="320">
-          <caret line="10" column="25" lean-forward="false" selection-start-line="10" selection-start-column="25" selection-end-line="10" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/util/ParticipleUtil.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -1208,7 +1086,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="16640">
           <caret line="543" column="21" lean-forward="true" selection-start-line="543" selection-start-column="21" selection-end-line="543" selection-end-column="21" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1223,13 +1100,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-1349">
           <caret line="13" column="11" lean-forward="false" selection-start-line="13" selection-start-column="11" selection-end-line="13" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/constant/IOConstant.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="288">
-          <caret line="9" column="0" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
         </state>
       </provider>
     </entry>
@@ -1262,60 +1132,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pretreament/TxtData/sentences.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="992">
-          <caret line="31" column="15" lean-forward="true" selection-start-line="31" selection-start-column="15" selection-end-line="31" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/domain/Synonym.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="115">
-          <caret line="9" column="32" lean-forward="false" selection-start-line="9" selection-start-column="25" selection-end-line="9" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/textSemanticAnalysis/Synonymy/HandleSynonymyTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="448">
           <caret line="17" column="5" lean-forward="true" selection-start-line="17" selection-start-column="5" selection-end-line="17" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/constant/PathConstant.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="351">
-          <caret line="12" column="79" lean-forward="true" selection-start-line="12" selection-start-column="79" selection-end-line="12" selection-end-column="79" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/textSemanticAnalysis/pretreament/handleData/HandleTxtData.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="397">
-          <caret line="24" column="29" lean-forward="false" selection-start-line="24" selection-start-column="21" selection-end-line="24" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/textSemanticAnalysis/pretreament/participle/Participle.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="117">
-          <caret line="27" column="29" lean-forward="false" selection-start-line="27" selection-start-column="21" selection-end-line="27" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/textSemanticAnalysis/pretreament/stopWordFilter/StopWordFilter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="223">
-          <caret line="38" column="48" lean-forward="false" selection-start-line="38" selection-start-column="39" selection-end-line="38" selection-end-column="48" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/textSemanticAnalysis/synonymy/HandleSynonymy.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1313">
-          <caret line="60" column="55" lean-forward="false" selection-start-line="60" selection-start-column="46" selection-end-line="60" selection-end-column="55" />
         </state>
       </provider>
     </entry>
@@ -1333,50 +1153,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pretreament/TxtData/participle.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="32">
-          <caret line="1" column="29" lean-forward="true" selection-start-line="1" selection-start-column="29" selection-end-line="1" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pretreament/Synonymy/哈工大信息检索研究中心同义词词林扩展版.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="64">
-          <caret line="2" column="15" lean-forward="false" selection-start-line="2" selection-start-column="15" selection-end-line="2" selection-end-column="15" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pretreament/SogouR/ShortTextSetCollocation.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="7891">
-          <caret line="276684" column="6" lean-forward="true" selection-start-line="276684" selection-start-column="6" selection-end-line="276684" selection-end-column="6" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/util/Print.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="745">
-          <caret line="31" column="17" lean-forward="false" selection-start-line="31" selection-start-column="17" selection-end-line="31" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/domain/Sentence.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="320">
-          <caret line="11" column="31" lean-forward="false" selection-start-line="11" selection-start-column="31" selection-end-line="11" selection-end-column="31" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/pretreament/SogouR/SogouR.mini.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-678">
           <caret line="58044" column="7" lean-forward="true" selection-start-line="58044" selection-start-column="7" selection-end-line="58044" selection-end-column="7" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1384,46 +1164,169 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="659">
           <caret line="1326" column="1" lean-forward="true" selection-start-line="1326" selection-start-column="1" selection-end-line="1326" selection-end-column="1" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/pretreament/Stopword/停用词表1.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="819">
-          <caret line="1756" column="3" lean-forward="true" selection-start-line="1756" selection-start-column="3" selection-end-line="1756" selection-end-column="3" />
-          <folding />
+        <state relative-caret-position="56192">
+          <caret line="1756" column="3" lean-forward="false" selection-start-line="1756" selection-start-column="3" selection-end-line="1756" selection-end-column="3" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/textSemanticAnalysis/sogouR/HandleSogouR.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/domain/Label.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="257">
-          <caret line="44" column="25" lean-forward="true" selection-start-line="44" selection-start-column="25" selection-end-line="44" selection-end-column="25" />
-          <folding />
+        <state relative-caret-position="288">
+          <caret line="10" column="25" lean-forward="false" selection-start-line="10" selection-start-column="25" selection-end-line="10" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pretreament/SogouR/ShortTextSetCollocation.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="245">
+          <caret line="209383" column="8" lean-forward="false" selection-start-line="209383" selection-start-column="8" selection-end-line="209383" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/textSemanticAnalysis/pretreament/stopWordFilter/StopWordFilter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="416">
+          <caret line="38" column="48" lean-forward="false" selection-start-line="38" selection-start-column="39" selection-end-line="38" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pretreament/TxtData/sentences.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pretreament/TxtData/participle.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/textSemanticAnalysis/pretreament/handleData/HandleTxtData.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="352">
+          <caret line="23" column="29" lean-forward="false" selection-start-line="23" selection-start-column="29" selection-end-line="23" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/util/POI.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="251">
+          <caret line="36" column="43" lean-forward="false" selection-start-line="36" selection-start-column="43" selection-end-line="36" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/textSemanticAnalysis/pretreament/participle/Participle.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="211">
+          <caret line="25" column="29" lean-forward="false" selection-start-line="25" selection-start-column="29" selection-end-line="25" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/textSemanticAnalysis/pretreament/handleData/HandleExcelData.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="256">
+          <caret line="13" column="15" lean-forward="false" selection-start-line="13" selection-start-column="15" selection-end-line="13" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/textSemanticAnalysis/pretreament/POI/POIExcel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="256">
+          <caret line="9" column="11" lean-forward="false" selection-start-line="9" selection-start-column="11" selection-end-line="9" selection-end-column="11" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/textSemanticAnalysis/sogouR/HandleSogouRTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="448">
-          <caret line="17" column="84" lean-forward="true" selection-start-line="17" selection-start-column="84" selection-end-line="17" selection-end-column="84" />
+        <state relative-caret-position="352">
+          <caret line="14" column="0" lean-forward="false" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/domain/Synonym.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="379">
+          <caret line="25" column="24" lean-forward="false" selection-start-line="25" selection-start-column="24" selection-end-line="25" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/domain/Sentence.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="736">
+          <caret line="26" column="0" lean-forward="false" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pretreament/Synonymy/哈工大信息检索研究中心同义词词林扩展版.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="416">
+          <caret line="14416" column="11" lean-forward="true" selection-start-line="14416" selection-start-column="11" selection-end-line="14416" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/textSemanticAnalysis/sogouR/HandleSogouR.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="768">
+          <caret line="36" column="16" lean-forward="false" selection-start-line="36" selection-start-column="16" selection-end-line="36" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/constant/PathConstant.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="576">
+          <caret line="18" column="105" lean-forward="true" selection-start-line="18" selection-start-column="105" selection-end-line="18" selection-end-column="105" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/constant/IOConstant.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="160">
+          <caret line="5" column="13" lean-forward="false" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/textSemanticAnalysis/synonymy/HandleSynonymy.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="562">
+          <caret line="98" column="5" lean-forward="true" selection-start-line="98" selection-start-column="5" selection-end-line="98" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/textSemanticAnalysis/wordMeaningDiscrimination/WordMeaningDiscrimination.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2345">
+          <caret line="80" column="39" lean-forward="true" selection-start-line="80" selection-start-column="39" selection-end-line="80" selection-end-column="39" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/util/Print.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="713">
+          <caret line="44" column="43" lean-forward="false" selection-start-line="44" selection-start-column="43" selection-end-line="44" selection-end-column="43" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/TextSemanticAnalysis.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="608">
-          <caret line="34" column="57" lean-forward="false" selection-start-line="34" selection-start-column="57" selection-end-line="34" selection-end-column="57" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/textSemanticAnalysis/pretreament/handleData/HandleExcelData.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="219">
-          <caret line="24" column="52" lean-forward="true" selection-start-line="24" selection-start-column="52" selection-end-line="24" selection-end-column="52" />
+        <state relative-caret-position="471">
+          <caret line="104" column="42" lean-forward="true" selection-start-line="104" selection-start-column="42" selection-end-line="104" selection-end-column="42" />
           <folding />
         </state>
       </provider>

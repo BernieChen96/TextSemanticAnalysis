@@ -7,12 +7,19 @@ import java.util.Map;
  * Created by 51157 on 2017/7/17.
  */
 public class Sentence {
+    //文本内容
     private String content;
-    private List<Label> labels;
+    //文本标签
+    private Label label;
+    //经过分词后的词语
     private List<String> words;
+    //是否为同义词词林中的词语
     private List<String> unregisteredSynonyms;
     private List<String> registeredSynonyms;
-    private List<String> sentencePolysemousWords;
+    //多义词词语
+    private Map<String, List<Synonym>> sentencePolysemousWordsMap;
+    //单义词词语
+    private Map<String, List<Synonym>> sentenceSingleSynonymWordsMap;
 
     public String getContent() {
         return content;
@@ -22,12 +29,12 @@ public class Sentence {
         this.content = content;
     }
 
-    public List<Label> getLabels() {
-        return labels;
+    public Label getLabel() {
+        return label;
     }
 
-    public void setLabels(List<Label> labels) {
-        this.labels = labels;
+    public void setLabel(Label label) {
+        this.label = label;
     }
 
     public List<String> getWords() {
@@ -54,11 +61,19 @@ public class Sentence {
         this.registeredSynonyms = registeredSynonyms;
     }
 
-    public List<String> getSentencePolysemousWords() {
-        return sentencePolysemousWords;
+    public Map<String, List<Synonym>> getSentencePolysemousWordsMap() {
+        return sentencePolysemousWordsMap;
     }
 
-    public void setSentencePolysemousWords(List<String> sentencePolysemousWords) {
-        this.sentencePolysemousWords = sentencePolysemousWords;
+    public void setSentencePolysemousWordsMap(Map<String, List<Synonym>> sentencePolysemousWordsMap) {
+        this.sentencePolysemousWordsMap = sentencePolysemousWordsMap;
+    }
+
+    public Map<String, List<Synonym>> getSentenceSingleSynonymWordsMap() {
+        return sentenceSingleSynonymWordsMap;
+    }
+
+    public void setSentenceSingleSynonymWordsMap(Map<String, List<Synonym>> sentenceSingleSynonymWordsMap) {
+        this.sentenceSingleSynonymWordsMap = sentenceSingleSynonymWordsMap;
     }
 }

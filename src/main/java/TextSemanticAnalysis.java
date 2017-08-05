@@ -7,10 +7,12 @@ import textSemanticAnalysis.pretreament.participle.Participle;
 import textSemanticAnalysis.pretreament.stopWordFilter.StopWordFilter;
 import textSemanticAnalysis.sogouR.HandleSogouR;
 import textSemanticAnalysis.synonymy.HandleSynonymy;
+import textSemanticAnalysis.wordMeaningDiscrimination.WordMeaningDiscrimination;
 import util.Print;
 
 import java.io.File;
 import java.util.List;
+import java.util.Map;
 
 /**
  * Created by 51157 on 2017/7/17.
@@ -47,7 +49,7 @@ public class TextSemanticAnalysis {
         对文本内容进行分词，并将分词内容写入txt中
         如果已经进行了分词，直接读取分词txt文件
         */
-//        Print.print("对文本内容进行分词");
+        Print.print("对文本内容进行分词");
         if (!new File(PathConstant.PARTICIPLE_PATH).exists()) {
             new Participle(sentences).participle();
         } else {
@@ -82,7 +84,6 @@ public class TextSemanticAnalysis {
         boolean isHandledSogouR = false;
         HandleSogouR handleSogouR = null;
         if (!(isHandledSogouR = new File(PathConstant.SHORTTEXTSET_COLLOCATION_PATH).exists())) {
-            handleSynonymy.getSentencePolysemousWords();
             handleSogouR = new HandleSogouR(sentences, isHandledSogouR);
             handleSogouR.extractCollocation();
         } else {
@@ -94,14 +95,16 @@ public class TextSemanticAnalysis {
 
 
         /*
-         生成义项判别矩阵
-         2.获取多义词词典
-         3.遍历SogouR
+         义项判别
+         判别义项过程：多义词有多个原子词群，看原子词群中的词与上下文的对应关系
          */
-//        HandleSogouR handleSogouR = new HandleSogouR(sentences);
-//        handleSogouR.setPolysemousWords(handleSynonymy.getPolysemousWordsMap());
-//        handleSogouR.ergodicSogouR();
-
+        Print.print("义项判别");
+        handleSynonymy.getSentencePolysemousWords();
+        Print.printMap((Map) sentences.get(0).getSentenceSingleSynonymWordsMap());
+        WordMeaningDiscrimination wordMeaningDiscrimination = new WordMeaningDiscrimination(sentences, handleSogouR.getSogouRWords());
+        wordMeaningDiscrimination.start();
+        Print.printMap((Map) sentences.get(0).getSentenceSingleSynonymWordsMap());
+        Print.print("义项判别完毕");
     }
 
     public static void main(String[] args) {

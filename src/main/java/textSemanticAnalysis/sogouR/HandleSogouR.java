@@ -25,6 +25,7 @@ public class HandleSogouR {
 
     public HandleSogouR(List<Sentence> sentences, boolean isHandled) {
         this.sentences = sentences;
+        Print.print(isHandled);
         if (isHandled)
             ergodicSogouR(PathConstant.SHORTTEXTSET_COLLOCATION_PATH);
         else
@@ -77,7 +78,7 @@ public class HandleSogouR {
     }
 
     public void ergodicSogouR(String path) {
-        sogouRRelativeWords = IO.readLineForTxt(path, IOConstant.GBK);
+        sogouRRelativeWords = IO.readLineForTxt(path, IOConstant.UTF8);
         sogouRWords = new ArrayList<SogouRWord>();
         //遍历每对关系词
         for (String sogouRRelativeWord : sogouRRelativeWords) {

@@ -20,6 +20,12 @@ public class Sentence {
     private Map<String, List<Synonym>> sentencePolysemousWordsMap;
     //单义词词语
     private Map<String, List<Synonym>> sentenceSingleSynonymWordsMap;
+    //g函数结果
+    private List<Integer> G;
+    //特征Map
+    private Map<String, Integer> featuresMap;
+    //特征权重
+    private Map<String, Double> featuresWeightMap;
 
     public String getContent() {
         return content;
@@ -76,4 +82,29 @@ public class Sentence {
     public void setSentenceSingleSynonymWordsMap(Map<String, List<Synonym>> sentenceSingleSynonymWordsMap) {
         this.sentenceSingleSynonymWordsMap = sentenceSingleSynonymWordsMap;
     }
+
+    public List<Integer> getG() {
+        return G;
+    }
+
+    public void setG(List<Integer> g) {
+        G = g;
+    }
+
+    public Map<String, Integer> getFeaturesMap() {
+        return featuresMap;
+    }
+
+    public void setFeaturesMap(Map<String, Integer> featuresMap) {
+        this.featuresMap = featuresMap;
+    }
+
+    public Map<String, Double> getFeaturesWeightMap() {
+        return featuresWeightMap;
+    }
+
+    public void setFeaturesWeightMap(Map<String, Double> featuresWeightMap) {
+        this.featuresWeightMap = featuresWeightMap;
+    }
+
 }

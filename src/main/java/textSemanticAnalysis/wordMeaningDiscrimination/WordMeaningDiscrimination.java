@@ -70,14 +70,14 @@ public class WordMeaningDiscrimination {
                     Synonym defaultSynonym = synonyms.get(0);
                     synonyms.clear();
                     synonyms.add(defaultSynonym);
-                    IO.write(PathConstant.WORDMEANINGDISCRIMATION_PATH, defaultSynonym.getCode());
+                    IO.write(PathConstant.WORDMEANINGDISCRIMATION_PATH, polysemousWord + "," + defaultSynonym.getCode() + " ");
                 } else {
                     synonyms.clear();
                     synonyms.add(currentSynonym);
-                    IO.write(PathConstant.WORDMEANINGDISCRIMATION_PATH, currentSynonym.getCode());
+                    IO.write(PathConstant.WORDMEANINGDISCRIMATION_PATH, polysemousWord + "," + currentSynonym.getCode() + " ");
                 }
-
             }
+            IO.write(PathConstant.WORDMEANINGDISCRIMATION_PATH, "\r\n");
             Print.print(sentenceCount);
         }
     }

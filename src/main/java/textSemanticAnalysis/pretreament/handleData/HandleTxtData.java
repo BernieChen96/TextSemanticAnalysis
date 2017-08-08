@@ -31,7 +31,7 @@ public class HandleTxtData {
 //                labelCount++;
 //                Label label = labelIterator.next();
             Label label = sentence.getLabel();
-            IO.write(PathConstant.TXT_PATH, "标签:" + label.affection + "," + label.classify);
+            IO.write(PathConstant.TXT_PATH, "标签:" + label.getAffection() + "," + label.getClassify());
 //            IO.write(PathConstant.TXT_PATH, "标签" + labelCount + ":" + label.affection + "," + label.classify);
 //            }
             IO.write(PathConstant.TXT_PATH, "\r\n");

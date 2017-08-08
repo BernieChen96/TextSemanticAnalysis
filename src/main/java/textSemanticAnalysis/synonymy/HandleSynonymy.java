@@ -125,4 +125,7 @@ public class HandleSynonymy {
         return polysemousWordsMap;
     }
 
+    public List<Synonym> getSynonymList() {
+        return synonymy;
+    }
 }
